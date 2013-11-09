@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VOTABLE version="1.2" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.ivoa.net/xml/VOTable/v1.2" 
+xmlns:stc="http://www.ivoa.net/xml/STC/v1.3">
+<RESOURCE name="GSC23">
+<TABLE>
+<DESCRIPTION>
+Objects found : 2 , GSC23, ConeSearch: RA=20.7666666666667 DEC=3.35 SR=0.00833333333333333,OK</DESCRIPTION>
+<FIELD name="hstID" ID="hstID" datatype="char" arraysize="*" ucd="meta.id;meta.main" utype="caom:gsc2.catalogEntity.id" >
+<DESCRIPTION>GSC2 Public ID</DESCRIPTION>
+</FIELD>
+<FIELD name="ra" ID="ra" datatype="double" ucd="pos.eq.ra;meta.main" unit="deg" utype="caom:gsc2.catalogEntity.ra" >
+<DESCRIPTION>Right Ascension (ICRS)</DESCRIPTION>
+</FIELD>
+<FIELD name="dec" ID="dec" datatype="double" ucd="pos.eq.dec;meta.main" unit="deg" utype="caom:gsc2.catalogEntity.dec" >
+<DESCRIPTION>Declination (ICRS)</DESCRIPTION>
+</FIELD>
+<FIELD name="GSC1ID" ID="GSC1ID" datatype="char" arraysize="*" ucd="meta.id.cross" >
+<DESCRIPTION>GSC1 ID</DESCRIPTION>
+</FIELD>
+<FIELD name="raEpsilon" ID="raEpsilon" datatype="float" ucd="stat.error" unit="arcsec" >
+<DESCRIPTION>RA error</DESCRIPTION>
+</FIELD>
+<FIELD name="decEpsilon" ID="decEpsilon" datatype="float" ucd="stat.error" unit="arcsec" >
+<DESCRIPTION>Dec error</DESCRIPTION>
+</FIELD>
+<FIELD name="epoch" ID="epoch" datatype="float" ucd="time.epoch;obs" unit="yr" >
+<DESCRIPTION>Epoch of coordinate</DESCRIPTION>
+</FIELD>
+<FIELD name="FpgMag" ID="FpgMag" datatype="float" ucd="phot.mag;em.opt.R" unit="mag" utype="caom:gsc2.catalogEntity.mag" >
+<DESCRIPTION>Photographic Red magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="JpgMag" ID="JpgMag" datatype="float" ucd="phot.mag;em.opt.B" unit="mag" utype="caom:gsc2.catalogEntity.mag" >
+<DESCRIPTION>Photographic Blue magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="NMag" ID="NpgMag" datatype="float" ucd="phot.mag;em.opt.I" unit="mag" utype="caom:gsc2.catalogEntity.mag" >
+<DESCRIPTION>Photographic Near-IR magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="UMag" ID="UMag" datatype="float" ucd="phot.mag;em.opt.U" unit="mag" >
+<DESCRIPTION>U band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="BMag" ID="BMag" datatype="float" ucd="phot.mag;em.opt.B" unit="mag" >
+<DESCRIPTION>B band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="VMag" ID="VMag" datatype="float" ucd="phot.mag;em.opt.V" unit="mag" >
+<DESCRIPTION>V band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="RMag" ID="RMag" datatype="float" ucd="phot.mag;em.opt.R" unit="mag" >
+<DESCRIPTION>R band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="IMag" ID="IMag" datatype="float" ucd="phot.mag;em.opt.I" unit="mag" >
+<DESCRIPTION>I band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="JMag" ID="JMag" datatype="float" ucd="phot.mag;em.IR.J" unit="mag" >
+<DESCRIPTION>2MASS J band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="HMag" ID="HMag" datatype="float" ucd="phot.mag;em.IR.H" unit="mag" >
+<DESCRIPTION>2MASS H band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="KMag" ID="KMag" datatype="float" ucd="phot.mag;em.IR.K" unit="mag" >
+<DESCRIPTION>2MASS K band magnitude</DESCRIPTION>
+</FIELD>
+<FIELD name="FpgMagCode" ID="FpgMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>Photographic Red bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="JpgMagCode" ID="JpgMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>Photographic Blue bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="NMagCode" ID="NpgMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>Photographic Near-IR bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="UMagCode" ID="UMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>U band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="BMagCode" ID="BMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>B band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="VMagCode" ID="VMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>V band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="RMagCode" ID="RMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>R band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="IMagCode" ID="IMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>I band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="JMagCode" ID="JMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>2MASS J band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="HMagCode" ID="HMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>2MASS H band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="KMagCode" ID="KMagCode" datatype="int" ucd="meta.code" >
+<DESCRIPTION>2MASS K band bandpass code</DESCRIPTION>
+</FIELD>
+<FIELD name="FpgMagErr" ID="FpgMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>Photographic Red magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="JpgMagErr" ID="JpgMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>Photographic Blue magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="NMagErr" ID="NpgMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>Photographic Near-IR magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="UMagErr" ID="UMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>U band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="BMagErr" ID="BMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>B band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="VMagErr" ID="VMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>V band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="RMagErr" ID="RMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>R band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="IMagErr" ID="IMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>I band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="JMagErr" ID="JMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>2MASS J band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="HMagErr" ID="HMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>2MASS H band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="KMagErr" ID="KMagErr" datatype="float" ucd="stat.error" unit="mag" >
+<DESCRIPTION>2MASS K band magnitude error</DESCRIPTION>
+</FIELD>
+<FIELD name="class" ID="class" datatype="int" ucd="meta.code.class" utype="caom.gsc2.catalogEntity.class" >
+<DESCRIPTION>Object classification code</DESCRIPTION>
+</FIELD>
+<FIELD name="sourceStatus" ID="sourceStatus" datatype="long" ucd="meta.code.status" >
+<DESCRIPTION>Object status codes</DESCRIPTION>
+</FIELD>
+<FIELD name="semiMajorAxis" ID="semiMajorAxis" datatype="float" ucd="phys.angSize.smajAxis" unit="pixel" >
+<DESCRIPTION>SemiMajor diameter of object</DESCRIPTION>
+</FIELD>
+<FIELD name="positionangle" ID="positionangle" datatype="float" ucd="pos.posAng" unit="deg" >
+<DESCRIPTION>Position Angle (North thru East)</DESCRIPTION>
+</FIELD>
+<FIELD name="eccentricity" ID="eccentricity" datatype="float" ucd="phys.size.axisRatio" >
+<DESCRIPTION>Eccentricity of object</DESCRIPTION>
+</FIELD>
+<FIELD name="variableFlag" ID="variableFlag" datatype="char" arraysize="*" ucd="meta.code.status" >
+<DESCRIPTION>Flag for known variable</DESCRIPTION>
+</FIELD>
+<FIELD name="multipleFlag" ID="multipleFlag" datatype="char" arraysize="*" ucd="meta.code.class" >
+<DESCRIPTION>Flag for known multiple</DESCRIPTION>
+</FIELD>
+<FIELD name="distance" ID="distance" datatype="float" ucd="pos.angDistance" unit="arcsec" >
+<DESCRIPTION>Distance of Object</DESCRIPTION>
+</FIELD>
+<DATA>
+<TABLEDATA nrows="2"> 
+<TR><TD>NBRH023458 </TD><TD>20.7655715942383</TD><TD>3.34854888916016</TD><TD></TD><TD>0.393279</TD><TD>0.446409</TD><TD>1987.65002441406</TD><TD>20.0411</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>35</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>0.634092</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>3</TD><TD>10020201</TD><TD>1.49084</TD><TD>178.93</TD><TD>0.121239</TD><TD>0</TD><TD>0</TD><TD>0.109008842167301</TD></TR>
+<TR><TD>NBRH023468 </TD><TD>20.7717266082764</TD><TD>3.35252237319946</TD><TD></TD><TD>0.393279</TD><TD>0.446409</TD><TD>1987.65002441406</TD><TD>19.5729</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>35</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>99</TD><TD>0.521442</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>99.99</TD><TD>3</TD><TD>10020201</TD><TD>2.36289</TD><TD>174.732</TD><TD>0.257711</TD><TD>0</TD><TD>0</TD><TD>0.338763017632605</TD></TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+<INFO name="QUERY_STATUS" value="OK"> </INFO>
+</RESOURCE>
+</VOTABLE>
