@@ -10,5 +10,6 @@ Collection of useful python code
 * [How to read XML Files using DOM](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/XML DOM Reader.ipynb)
 
 * [How to make a photo look like a drawing](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Photo2Drawing.ipynb)
-* [How to read image from a IP Camera](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPCam.ipynb)
+* [How to read images from an IP Camera](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPCam.ipynb)
+
 * [IPython App Launcher](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPython App.ipynb)
