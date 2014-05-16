@@ -14,4 +14,6 @@ Collection of useful python code
 * [How to detector motion using Lucas Kanade method (Optical flow)](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Optical\ Flow.ipynb) 
 * [How to build a breathing rate monitor using LK algorithm](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Breathing\ Monitor.ipynb) 
 
+* [How fast is Numba compared to numpy](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/NumbaTest.ipynb) 
+
 * [IPython App Launcher](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPython App.ipynb)
