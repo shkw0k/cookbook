@@ -16,6 +16,10 @@ Collection of useful python code
 
 * [How fast is Numba compared to numpy](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/NumbaTest.ipynb) 
 
+* [How fast is Numba Part 2](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IndicesTest.ipynb) 
+
+* [How fast is the median filter](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Median.ipynb) 
+
 * [How to call a function from an external library](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/SlalibTest.ipynb) 
 
 * [IPython App Launcher](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPython App.ipynb)
