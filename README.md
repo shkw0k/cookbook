@@ -22,4 +22,6 @@ Collection of useful python code
 
 * [How to call a function from an external library](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/SlalibTest.ipynb) 
 
+* [How turn a cflow call tree into a pretty graph](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/CallTree.ipynb) 
+
 * [IPython App Launcher](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPython App.ipynb)
