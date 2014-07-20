@@ -13,6 +13,7 @@ Collection of useful python code
 * [How to read images from an IP Camera](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/IPCam.ipynb)
 * [How to detector motion using Lucas Kanade method (Optical flow)](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Optical\ Flow.ipynb) 
 * [How to build a breathing rate monitor using LK algorithm](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/Breathing\ Monitor.ipynb) 
+* [Another simple motion detection](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/MotionDetectionStream.ipynb) 
 
 * [How fast is Numba compared to numpy](http://nbviewer.ipython.org/urls/raw.github.com/shkw0k/cookbook/master/NumbaTest.ipynb) 
 
